@@ -1,0 +1,15 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Crash logs
+crash.log
