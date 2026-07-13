@@ -2,7 +2,7 @@
 **/.terraform/*
 *.tfstate
 *.tfstate.*
-# *.tfvars
+# *.tfvars  # this is removed from .ignore file as for now we do not have any secrets in .tfvars file we have only created resources values
 *.tfplan
 
 # macOS
