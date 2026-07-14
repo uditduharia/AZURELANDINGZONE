@@ -107,3 +107,25 @@ nics = {
  
 }
     }
+
+
+vms = {
+
+    vm1 = {
+
+         name                  = "netflix-frontend"
+  location              = "east us"
+  resource_group_name   = "udit-rg1"
+  network_interface_ids = ["/subscriptions/94071485-796a-4f7e-9205-381343d2a695/resourceGroups/udit-rg1/providers/Microsoft.Network/networkInterfaces/frontendnic"]
+  vm_size               = "Standard_B2s"
+    }
+
+    vm2 = {
+
+         name                  = "starbucks-backend"
+  location              = "east us"
+  resource_group_name   = "udit-rg1"
+  network_interface_ids = ["/subscriptions/94071485-796a-4f7e-9205-381343d2a695/resourceGroups/udit-rg1/providers/Microsoft.Network/networkInterfaces/backendnic"]
+  vm_size               = "Standard_B2s"
+    }
+}

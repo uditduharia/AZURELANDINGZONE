@@ -23,3 +23,7 @@ variable "nsgs" {
 variable "nics" {
   
 }
+
+variable "vms" {
+  
+}

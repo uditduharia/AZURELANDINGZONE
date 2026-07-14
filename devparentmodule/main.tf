@@ -58,3 +58,10 @@ module "nic" {
     nicvar = var.nics
   
 }
+
+module "vm" {
+    source = "../childmodules/azurerm_virtual_machine"
+
+    vmvar = var.vms
+  
+}
