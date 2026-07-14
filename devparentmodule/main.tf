@@ -43,3 +43,18 @@ module "public_ip" {
 #     azure_bastion = var.bastion
   
 # }
+
+module "nsg" {
+
+    source = "../childmodules/azurerm_nsg"
+
+    nsgvar = var.nsgs
+  
+}
+
+module "nic" {
+    source = "../childmodules/azurerm_nic"
+
+    nicvar = var.nics
+  
+}

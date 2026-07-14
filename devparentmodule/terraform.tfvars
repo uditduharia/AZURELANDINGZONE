@@ -73,3 +73,37 @@ public_ip = {
 
 #     }
 # }
+
+nsgs = {
+
+    nsg1 = {
+          name                = "nsgtest"
+  location            = "central india"
+  resource_group_name = "udit-rg1"
+
+  
+    }
+}
+
+nics = {
+
+    nic1 = {
+
+          name                = "frontendnic"
+  location            = "central india"
+  resource_group_name = "udit-rg1"
+  subnet_id = "/subscriptions/94071485-796a-4f7e-9205-381343d2a695/resourceGroups/udit-rg1/providers/Microsoft.Network/virtualNetworks/devvnet/subnets/frontendsubnet"
+
+ 
+}
+
+ nic2 = {
+
+          name                = "backendnic"
+  location            = "central india"
+  resource_group_name = "udit-rg1"
+  subnet_id = "/subscriptions/94071485-796a-4f7e-9205-381343d2a695/resourceGroups/udit-rg1/providers/Microsoft.Network/virtualNetworks/devvnet/subnets/backendsubnet"
+
+ 
+}
+    }

@@ -15,3 +15,11 @@ variable "public_ip" {
 # variable "bastion" {
   
 # }
+
+variable "nsgs" {
+  
+}
+
+variable "nics" {
+  
+}
