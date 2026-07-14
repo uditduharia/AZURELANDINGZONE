@@ -12,6 +12,6 @@ variable "public_ip" {
   
 }
 
-variable "bastion" {
+# variable "bastion" {
   
-}
+# }

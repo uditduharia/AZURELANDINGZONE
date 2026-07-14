@@ -63,13 +63,13 @@ public_ip = {
     }
 }
 
-bastion = {
-    az_bastion ={
+# bastion = {
+#     az_bastion ={
 
-         name                = "AzureBastionSubnet"
-  location            = "central india"
-  resource_group_name = "udit-rg1"
+#          name                = "AzureBastionSubnet"
+#   location            = "central india"
+#   resource_group_name = "udit-rg1"
 
 
-    }
-}
+#     }
+# }

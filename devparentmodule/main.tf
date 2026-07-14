@@ -35,11 +35,11 @@ module "public_ip" {
     pip = var.public_ip
 }
 
-module "bastion" { 
-    source = "../childmodules/azure_bastion"
+# module "bastion" { 
+#     source = "../childmodules/azure_bastion"
 
-    depends_on = [ module.public_ip ]
+#     depends_on = [ module.public_ip ]
 
-    azure_bastion = var.bastion
+#     azure_bastion = var.bastion
   
-}
+# }
